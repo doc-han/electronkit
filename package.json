@@ -1,0 +1,27 @@
+{
+  "name": "electro",
+  "version": "1.0.0",
+  "description": "UI framework for building desktop apps with ElectronJs",
+  "main": "./lib/index.js",
+  "scripts": {
+    "dev": "grunt watch:dev",
+    "build": "grunt build-all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ui",
+    "framework",
+    "electron",
+    "desktop-apps"
+  ],
+  "author": "Farhan Yahya",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "node-sass": "^4.12.0"
+  }
+}
