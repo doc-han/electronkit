@@ -1,0 +1,76 @@
+.linear {
+    display: flex;
+}
+
+.linear.horizontal {
+    flex-flow: row nowrap;
+}
+.linear.vertical {
+    flex-flow: column nowrap;
+}
+
+.linear.horizontal {
+    .one {
+        width: 10%;
+    }
+    .two {
+        width: 20%;
+    }
+    .three {
+        width: 30%;
+    }
+    .four {
+        width: 40%;
+    }
+    .five {
+        width: 50%;
+    }
+    .six {
+        width: 60%;
+    }
+    .seven {
+        width: 70%;
+    }
+    .eight {
+        width: 80%;
+    }
+    .nine {
+        width: 90%;
+    }
+    .ten {
+        width: 100%;
+    }
+}
+
+.linear.vertical {
+    .one {
+        height: 10%;
+    }
+    .two {
+        height: 20%;
+    }
+    .three {
+        height: 30%;
+    }
+    .four {
+        height: 40%;
+    }
+    .five {
+        height: 50%;
+    }
+    .six {
+        height: 60%;
+    }
+    .seven {
+        height: 70%;
+    }
+    .eight {
+        height: 80%;
+    }
+    .nine {
+        height: 90%;
+    }
+    .ten {
+        height: 100%;
+    }
+}

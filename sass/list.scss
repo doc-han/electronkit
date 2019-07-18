@@ -1,0 +1,16 @@
+.list {
+
+    width: 100%;
+    background-color: $grey-light;
+
+    :hover {
+        background-color: $grey-dark;
+    }
+    :active {
+        background-color: $grey-dark;
+    }
+
+    li {
+        padding: 15px;
+    }
+}

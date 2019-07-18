@@ -1,0 +1,35 @@
+.columns {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.columns.fit-height {
+    height: 100%;
+}
+.column {
+    flex-grow: 1;
+}
+
+%no-flex {
+    flex-grow: 0;
+}
+
+.column.half {
+    @extend %no-flex;
+    width: 50%;
+}
+.column.quarter {
+    @extend %no-flex;
+    width: 25%;
+}
+.column.one-third {
+    @extend %no-flex;
+    width: 33.33%;
+}
+.column.column.two-third {
+    @extend %no-flex;
+    width: 66.67%
+}
+.column.rest {
+    flex-grow: 1;
+}

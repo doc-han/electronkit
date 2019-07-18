@@ -1,0 +1,30 @@
+.btn {
+    outline: none;
+    background-color: $grey-dark;
+    color: #343434;
+    padding: 8px 10px;
+    min-width: 100px;
+    border: 2px solid $grey-dark;
+    display: inline-block;
+    cursor: default;
+    text-align: center;
+}
+.btn:hover {
+    border-color: $grey-darker;
+}
+.btn:active {
+    background-color: $grey-darker;
+}
+
+.input.btn {
+    background-color: $grey-dark;
+    color: #343434;
+    min-width: 0;
+    border: none;
+}
+.input.btn:hover {
+    background-color: $grey;
+}
+.input.btn:active {
+    background-color: $grey-dark;
+}

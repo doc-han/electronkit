@@ -1,0 +1,43 @@
+.input {
+    outline: none;
+    border: 2px solid $grey-darker;
+    min-height: 27px;
+    min-width: 200px;
+    font-size: 16px;
+    padding: 0 10px;
+    max-width: 300px;
+}
+select.input {
+    height: 31px;
+    display: inline-block;
+}
+select.input:hover {
+    background-color: $grey;
+}
+
+.input-container {
+    outline: none;
+    border: 2px solid $grey-darker;
+    height: 27px;
+    font-size: 16px;
+    display: inline-flex;
+    flex-direction: row;
+}
+.input-container i {
+    font-size: 16px;
+    line-height: 27px;
+    color: $grey-darker;
+    padding: 0 5px;
+}
+.input-container .input {
+    height: 100%;
+    border: none;
+    width: 70%;
+}
+
+.input-container .btn {
+    background-color: $grey-dark;
+    color: #343434;
+    height: 100%;
+    width: 30%;
+}
